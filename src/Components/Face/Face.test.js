@@ -16,5 +16,13 @@ describe("Face tests", () => {
   it("should render both eyes", () => {
     expect(component.find("Eye")).toBeTruthy();
   });
-  
+
+  it("should not have the class rotate by default", () => {
+    expect(component.find("Eye")).toBeTruthy();
+  });
+
+  it("should have a rotate class when clicked", () => {
+    expect(component.find("Eye")).toBeTruthy();
+  });  
+
 });

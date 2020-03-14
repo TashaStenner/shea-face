@@ -1,0 +1,31 @@
+.shea {
+  height: 50vh;
+  width: 20vw;
+  border: 2px solid black;
+  background-image: url("../../Assets/Shea.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  .flexy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 10%;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left:48%;
+    transform: rotate(2deg);
+
+    .lEye {
+      margin-right: 6px;
+    }
+
+    .rEye {
+      margin-left: 2px;
+    }
+  }
+}
