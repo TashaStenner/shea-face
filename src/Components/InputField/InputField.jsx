@@ -5,7 +5,7 @@ const InputField = (props) => {
   const {handleInput} = props;
   return (
     <>
-     <input className="userInput" type="text" name="Rotate" id="Rotate" placeholder="Angle" onChange={input => handleInput(input.target.value)}/>
+     <input className="userInput" type="text" name="Rotate" id="Rotate" placeholder="Angle" onChange={e => handleInput(e.target.value)}/>
     </>
   );
 };

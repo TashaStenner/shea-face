@@ -1,22 +1,21 @@
 create git hub => done
 install appropriate dependiencies => done
 create psuedo code => done
-write tests
-create face 
-write tests
+write tests => done
+create face => done
+write tests => done
 create eye => done
 write tests => done
-make face and eyes sit where appropriate
-write tests
-create container for face&eyes to sit in 
-write tests
-make input container
-write tests
-input should set angle 
-write tests
-one click should change eye angle to set angle (transform) (state)
-write tests
-second click reset to default 
+make face and eyes sit where appropriate => done
+create container for face&eyes to sit in => done
+make input container => done
+input should set angle => done
+one click should change eye angle to set angle (transform) (state) => done
+second click reset to default => done
+
+extenstion 
+randomise the amount of Sheas on a page
+set up firebase
 
 
 Description
