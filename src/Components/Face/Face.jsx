@@ -12,12 +12,8 @@ const Face = props => {
     transform: `rotate(${angle}deg)`
   };
 
-  const originalAngle = {
-    transform: 'rotate(0deg)'
-  }
-
   const [isRotated, rotate] = useState(true);
-  const rotateClass = isRotated ? originalAngle : rotateAngle;
+  const rotateClass = isRotated ? null : rotateAngle;
 
   return (
     <>

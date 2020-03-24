@@ -13,19 +13,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
-    height: 10%;
-    width: 30%;
+    height: 6%;
+    width: 25%;
     position: absolute;
-    top: 30%;
-    left:48%;
+    top: 35%;
+    left:50%;
     transform: rotate(2deg);
 
     .lEye {
-      margin-right: 6px;
+      margin-right: 10px;
     }
 
     .rEye {
-      margin-left: 2px;
+      margin-left: 10px;
     }
   }
 }

@@ -6,7 +6,7 @@ create face => done
 write tests => done
 create eye => done
 write tests => done
-make face and eyes sit where appropriate => done
+make face and eyes sit where appropriate => done  
 create container for face&eyes to sit in => done
 make input container => done
 input should set angle => done
@@ -31,6 +31,3 @@ Have a face component that can be reused and takes in props to set the angle of 
 When the face is clicked make the eyes turn to the set position. When clicked again they return to the default position.
 Create at least 1 unit test
 
-Extension
-
-Use a random number API to tell you how many faces to display on the page.
