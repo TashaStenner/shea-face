@@ -1,0 +1,12 @@
+.faces {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+
+  p {
+    color: rgb(2, 2, 1);
+    width: 40vw;
+    margin-left: 32px;
+    font-size: 28px;
+  }
+}

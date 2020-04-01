@@ -7,13 +7,11 @@ const InputFace = () => {
   const [currentAngle, updateAngle] = useState(0);
 
   return (
-    <section>
+    <section className={styles.container}>
       <Face angle={currentAngle} />
-      <InputField handleInput={value => updateAngle(value)} />
-      <h3>
-        Input a angle into the box above, click on Shea's face to transform his
-        eyes to that angle. Click on his face to reset
-      </h3>
+      <div className={styles.input}>
+        <InputField handleInput={value => updateAngle(value)} />
+      </div>
     </section>
   );
 };

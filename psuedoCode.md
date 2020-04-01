@@ -12,10 +12,10 @@ make input container => done
 input should set angle => done
 one click should change eye angle to set angle (transform) (state) => done
 second click reset to default => done
+set up firebase => done
 
 extenstion 
 randomise the amount of Sheas on a page
-set up firebase
 
 
 Description
