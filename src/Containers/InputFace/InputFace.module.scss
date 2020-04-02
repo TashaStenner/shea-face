@@ -1,18 +1,40 @@
 .container {
-  width: 25vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 95vw;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
   margin-top: 24px;
 
-  p,
   .input {
-    color: rgb(247, 158, 56);
-    width: 20vw;
+    width: 100%;
     margin-left: 8px;
-  }
-
-  .input {
     margin-top: 8px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .container {
+    width: 90vw;
+    margin: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 40vw;
+    margin: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 20vw;
+    height: 50vh;
+    margin: 40px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .container {
+    margin: 40px;
   }
 }
