@@ -6,6 +6,7 @@ Tests completed on the Face and Eye components.
 * Javascript
 * React  
 * SCSS
+* Enzyme
 
 ## Still to do 
 * Add a spinning transition
