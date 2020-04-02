@@ -3,7 +3,8 @@ A challenge set by our coaches at Nology to demonstrate being able to hit an API
 
 ## Tech  Stack 
 * Javascript
-* React 
+* React  
+* SCSS
 
 ## Still to do 
 * Add a spinning transition
